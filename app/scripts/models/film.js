@@ -16,7 +16,7 @@ var Film = Backbone.Model.extend({
 
 var FilmCollection = Backbone.Collection.extend({
   model: Film,
-  url: 'http://swapi.co/api/films/',
+  url: 'https://swapi.co/api/films/',
   parse: function(data){
     return data.results;
   }
